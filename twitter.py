@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 import tweepy
 import time
 import os 
@@ -28,4 +31,3 @@ for tweet in tweepy.Cursor(api.search, q = searchQuery, result_type='recent').it
         print (e.reason)
     except StopIteration:
         break
-
