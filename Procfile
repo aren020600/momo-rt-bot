@@ -1,1 +1,1 @@
-web: gunicorn twitter.py:application
+web: gunicorn twitter.py:momo-rt-bot
